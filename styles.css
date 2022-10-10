@@ -10,7 +10,7 @@ body {
 }
 
 .bg-error {
-  background-image: url('./images/bg.jpg');
+  background-image: url('./images/background.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
