@@ -12,11 +12,30 @@
     <script type="module" src="script.js"></script>
   </head>
   <body>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != 'dataLayer' ? '&l=' + l : '';
+        j.async = true;
+        j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, 'script', 'dataLayer', 'GTM-M7RJ46T');
+    </script>
+    <!-- End Google Tag Manager -->
     <div class="bg-error">
-      holaaaaaaa
+      <div class="error-message">
+        <h2>We are experiencing a loss of communication with the base.</h2>
+        <p>Try again when the orbit is closer to earth.</p>
+      </div>
       <div>
-        <a href="/">Stay tuned</a>
-        <a href="/page2.html">Contact Us</a>
+        <button class="bg-error-button" href="/">
+          Stay tuned <img width="100" alt="slack" src="../images/slack.svg" />
+        </button>
+
+        <button class="bg-error-button" href="/">Contact Us</button>
       </div>
     </div>
   </body>
