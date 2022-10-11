@@ -4,14 +4,11 @@
     <title>Home</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
     <link rel="stylesheet" href="styles.css" />
     <script type="module" src="script.js"></script>
   </head>
   <body>
+    <!-- Start Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
         w[l] = w[l] || [];
@@ -25,15 +22,16 @@
       })(window, document, 'script', 'dataLayer', 'GTM-M7RJ46T');
     </script>
     <!-- End Google Tag Manager -->
-    <div class="bg-error">
+    <div class="error-container">
       <div class="error-message">
-        <h2>We are experiencing a loss of communication with the base.</h2>
-        <p>Try again when the orbit is closer to earth.</p>
+        <h2>We are exploring new orbits!</h2>
+        <p>Please check back later.</p>
       </div>
-      <div>
-        <img src="./images/message.png" />
-        <button class="bg-error-button" href="/">Stay tuned</button>
-        <button class="bg-error-button" href="/">Contact Us</button>
+      <div class="button-container">
+        <button class="button-rounded" href="/">
+          Stay tuned<img src="./images/message.png" />
+        </button>
+        <button class="button-rounded" href="/">Contact Us</button>
       </div>
     </div>
   </body>
