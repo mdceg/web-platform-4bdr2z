@@ -208,22 +208,6 @@ body {
 }
 
 
-@media screen and (max-width: 1440px) {
-  .planet{
-    bottom: -470px;
-    left: -750px;
-    width: 550px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .planet{
-    bottom: -470px;
-    left: -750px;
-    width: 550px;
-  }
-}
-
 @media screen and (max-width: 768px) {
   .planet{
     bottom: -440px;
@@ -231,6 +215,24 @@ body {
     width: 450px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .planet{
+    bottom: -470px;
+    left: -750px;
+    width: 550px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .planet{
+    bottom: -460px;
+    left: -750px;
+    width: 550px;
+  }
+}
+
+
 
 
 
